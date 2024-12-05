@@ -1,0 +1,161 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    color: #4B4453;
+    background-color: #FFFFFF; /* White background for the webpage */
+    line-height: 1.6;
+  }
+  
+  h1, h2, h3, h4, p {
+    margin-bottom: 1rem;
+  }
+  
+  
+  /* Navbar */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #E6E6FA; /* Lavender */
+    color: white;
+  }
+  
+  .navbar nav a {
+    color: #4B4453;
+    margin: 0 1rem;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .navbar .actions button {
+    background: #4B4453;
+    border: 1px solid #4B4453;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .navbar .actions .trial {
+    background-color: #D9B3FF; /* Light Lavender for contrast */
+    color: #4B4453;
+  }
+  
+  /* Hero Section */
+  .hero {
+    text-align: center;
+    padding: 3rem 1rem;
+    background-color: #E6E6FA; /* Lavender */
+  }
+  
+  .hero h1 {
+    font-size: 2.5rem;
+    color: #4B4453;
+  }
+  
+  .hero button {
+    background-color: #4B4453;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Practices Section */
+  .practices {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 2rem;
+  }
+  
+  .practice {
+    background: #E6E6FA; /* Lavender */
+    border: 1px solid #D9B3FF; /* Light Lavender Border */
+    border-radius: 8px;
+    text-align: center;
+    padding: 1.5rem;
+    margin: 1rem;
+    max-width: 200px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .practice h3 {
+    color: #4B4453;
+  }
+  
+  /* Reviews Section */
+  .reviews {
+    background-color: #E6E6FA; /* Lavender */
+    padding: 3rem 1rem;
+    text-align: center;
+  }
+  
+  .review-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+  }
+  
+  .review {
+    background: #FFFFFF; /* White boxes for contrast */
+    padding: 1.5rem;
+    border-radius: 8px;
+    max-width: 300px;
+    border: 1px solid #D9B3FF; /* Light Lavender */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Footer */
+  .footer {
+    background-color: #E6E6FA; /* Lavender */
+    color: #4B4453;
+    padding: 2rem 1rem;
+    text-align: center;
+  }
+  
+  .contact-form {
+    margin: 1rem 0;
+  }
+  
+  .contact-form input {
+    padding: 0.5rem;
+    margin-right: 1rem;
+    border: 1px solid #D9B3FF;
+    border-radius: 5px;
+  }
+  
+  .contact-form button {
+    background-color: #4B4453;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .navbar nav a {
+      margin: 0 0.5rem;
+    }
+  
+    .hero h1 {
+      font-size: 1.8rem;
+    }
+  
+    .practices, .review-list {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  
